@@ -25,13 +25,6 @@ public class HTMLParser implements IHTMLParser
         _listeners = new ArrayList();
     }
 
-    public void parse(String html)
-    {
-        this.html = html;
-
-        //Parse the HTML - while parsing fire the start & end tags out
-    }
-
     public void addListener(ParserEventListener listener)
     {
         synchronized (_listeners)
@@ -81,4 +74,14 @@ public class HTMLParser implements IHTMLParser
             }
         }
     }
+
+    //Parse this html
+    public void parse(String html)
+    {
+        this.html = html;
+
+        //Parse the HTML - while parsing fire the start & end tags out
+    }
+
+
 }
