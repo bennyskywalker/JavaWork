@@ -19,4 +19,10 @@ public class ParserEventAdapter implements ParserEventListener {
     {
         return;
     }
+
+    @Override
+    public void deadTagFound(Tag deadTag)
+    {
+        return;
+    }
 }

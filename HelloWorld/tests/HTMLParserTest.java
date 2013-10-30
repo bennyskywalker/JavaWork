@@ -1,4 +1,6 @@
 
+import java.io.ByteArrayInputStream;
+import java.io.InputStream;
 import java.util.List;
 
 import Parser.HTMLParser;
@@ -26,7 +28,9 @@ public class HTMLParserTest {
     @org.junit.Test
     public void testAllClosedTag() throws Exception {
 
-        htmlParser.parse("<html><html>");
+        String testString ="<html><html>";
+        InputStream is = new ByteArrayInputStream(testString.getBytes());
+        htmlParser.parse(is);
         List<String> nonClosedTags = htmlParser.nonClosedTags();
 
         assertNotNull(nonClosedTags);

@@ -1,5 +1,8 @@
 package Parser;
 
+import java.io.IOException;
+import java.io.InputStream;
+
 /**
  * Created with IntelliJ IDEA.
  * User: btsui
@@ -9,7 +12,7 @@ package Parser;
  */
 public interface IHTMLParser
 {
-    public void parse(String html);
+    public void parse(InputStream htmlstream) throws IOException;
     public void addListener(ParserEventListener listener);
     public void removeListener(ParserEventListener listener);
 }

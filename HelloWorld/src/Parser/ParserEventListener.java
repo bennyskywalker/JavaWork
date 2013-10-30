@@ -11,4 +11,5 @@ public interface ParserEventListener
 {
     public void startTagFound(Tag startTag);
     public void endTagFound(Tag endTag);
+    public void deadTagFound(Tag deadTag);
 }

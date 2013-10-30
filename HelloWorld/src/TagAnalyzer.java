@@ -14,10 +14,12 @@ import java.util.List;
 public class TagAnalyzer extends ParserEventAdapter
 {
     private List<Tag> startTags;
+    private List<Tag> errorTags;
 
     public TagAnalyzer()
     {
         startTags = new ArrayList<Tag>();
+        errorTags = new ArrayList<Tag>();
     }
 
     public void startTagFound(Tag startTag)
@@ -33,8 +35,19 @@ public class TagAnalyzer extends ParserEventAdapter
         startTags.remove(endTag);
     }
 
+    @Override
+    public void deadTagFound(Tag deadTag) {
+        //This is tags that are orphaned - dead - add to list
+        errorTags.add(deadTag);
+    }
+
     public List<Tag> listAllOrphanedTags()
     {
         return startTags;
+    }
+
+    public List<Tag> listAllDeadTags()
+    {
+        return errorTags;
     }
 }
