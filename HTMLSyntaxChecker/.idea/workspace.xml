@@ -4,9 +4,9 @@
     <list default="true" id="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" name="Default" comment="" />
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383107213489" ignored="false" />
+    <file path="/Main.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173350182" ignored="false" />
     <file path="/HTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383107074985" ignored="false" />
-    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383098049726" ignored="false" />
+    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174047812" ignored="false" />
     <file path="$PROJECT_DIR$/src/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383026354804" ignored="false" />
     <file path="/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383103000031" ignored="false" />
     <file path="/ParserEventListner.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383075349923" ignored="false" />
@@ -20,6 +20,9 @@
     <file path="/TagTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383081158127" ignored="false" />
     <file path="/TagAnalyzerTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383099066553" ignored="false" />
     <file path="/TagDebugger.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383106933037" ignored="false" />
+    <file path="/TestCase.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383172859255" ignored="false" />
+    <file path="$PROJECT_DIR$/src/Models/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173780877" ignored="false" />
+    <file path="$PROJECT_DIR$/src/tests/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173791435" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +37,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -68,85 +72,21 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="HelloWorld" />
+    <favorites_list name="HTMLSyntaxChecker" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HTMLParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/HTMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="140" column="76" selection-start="3757" selection-end="3757" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="IHTMLParser.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/IHTMLParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="64" selection-start="312" selection-end="323" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserEventListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="42" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ParserEventAdapter.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventAdapter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="16" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TagDebugger.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TagDebugger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="88" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TagAnalyzer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/TagAnalyzer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="25" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="65" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.75839794">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="22" column="21" selection-start="560" selection-end="560" vertical-scroll-proportion="0.28333333">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -161,7 +101,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Parser/IParserEvents.java" />
         <option value="$PROJECT_DIR$/src/Parser/IParser.java" />
         <option value="$PROJECT_DIR$/src/Parser/ParserEventListner.java" />
         <option value="$PROJECT_DIR$/src/ParserEvents.java" />
@@ -177,14 +116,15 @@
         <option value="$PROJECT_DIR$/src/TagDebugger.java" />
         <option value="$PROJECT_DIR$/src/Parser/HTMLParser.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/tests/Models/TestCaseTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="23" />
-    <option name="y" value="9" />
-    <option name="width" value="1584" />
-    <option name="height" value="966" />
+    <option name="x" value="337" />
+    <option name="y" value="15" />
+    <option name="width" value="1561" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -216,27 +156,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -246,11 +186,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -258,17 +198,17 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Parser" />
+              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -278,11 +218,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="HelloWorld" />
+              <option name="myItemId" value="HTMLSyntaxChecker" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -290,7 +230,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Parser" />
+              <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -309,7 +249,7 @@
     <property name="project.structure.proportion" value="0.15429688" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -319,14 +259,16 @@
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="Models" />
       <recent name="" />
       <recent name="Parser" />
     </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\git_bennyskywalker\JavaPractice\HTMLSyntaxChecker\src\Models" />
       <recent name="E:\git_bennyskywalker\JavaPractice\HelloWorld" />
     </key>
   </component>
@@ -462,7 +404,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="23" y="9" width="1584" height="966" extended-state="0" />
+    <frame x="337" y="15" width="1561" height="1032" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -473,16 +415,16 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27773526" sideWeight="0.21919584" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23881578" sideWeight="0.67125" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23714095" sideWeight="0.67125" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3075" sideWeight="0.9924433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -547,6 +489,20 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="25" selection-start="441" selection-end="454" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="65" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="41" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
@@ -565,13 +521,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="49" selection-start="771" selection-end="771" vertical-scroll-proportion="0.82379866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/HTMLParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="37" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
@@ -581,62 +530,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/IHTMLParser.java">
+    <entry file="file://$PROJECT_DIR$/tests/Models/TestCaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="64" selection-start="312" selection-end="323" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="42" selection-start="338" selection-end="338" vertical-scroll-proportion="0.0">
+        <state line="26" column="5" selection-start="451" selection-end="451" vertical-scroll-proportion="0.50595236">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="16" selection-start="436" selection-end="436" vertical-scroll-proportion="0.0">
+        <state line="14" column="18" selection-start="327" selection-end="327" vertical-scroll-proportion="0.22261904">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TagAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="1129" selection-end="1129" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TagDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="88" selection-start="630" selection-end="630" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/HTMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="140" column="76" selection-start="3757" selection-end="3757" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="65" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.75839794">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="21" selection-start="560" selection-end="560" vertical-scroll-proportion="0.28333333">
+          <folding />
         </state>
       </provider>
     </entry>
