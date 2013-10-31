@@ -15,7 +15,7 @@ public class TagTest {
     private Tag tag;
     @Before
     public void setUp() throws Exception {
-        tag = new Tag("name", 11);
+        tag = new Tag("name", 11, 1);
     }
 
     @Test
@@ -26,5 +26,11 @@ public class TagTest {
     @Test
     public void testGetPosition() throws Exception {
         assertEquals("position", 11, tag.getPosition());
+    }
+
+    @Test
+    public void testGetLineNumber() throws Exception
+    {
+        assertEquals("line", 1, tag.getLineNumber());
     }
 }

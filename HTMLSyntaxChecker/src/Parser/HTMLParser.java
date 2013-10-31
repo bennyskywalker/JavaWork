@@ -1,5 +1,7 @@
 package Parser;
 
+import Models.TestCase;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -8,8 +10,8 @@ import java.util.List;
 /**
  * Created with IntelliJ IDEA.
  * User: btsui
- * Date: 29/10/13
- * Time: 1:36 AM
+ * Date: 30/10/13
+ * Time: 7:00 PM
  * To change this template use File | Settings | File Templates.
  */
 public class HTMLParser implements IHTMLParser
@@ -22,14 +24,16 @@ public class HTMLParser implements IHTMLParser
     private final int startEndTag = 2;
 
     private List<String> nonClosedTags;
-    private String html;
     private List<ParserEventListener>  _listeners;
 
+    /**
+     * This class will parse an HTML chunk, and fire back events for all the tags.
+     * We need to supply it with input - in the form of lines.
+     */
     public HTMLParser()
     {
         //Init the list
         this.nonClosedTags = new ArrayList<String>();
-        html = null;
         _listeners = new ArrayList();
     }
 
@@ -83,7 +87,19 @@ public class HTMLParser implements IHTMLParser
         }
     }
 
-    private void fireDeadTagEven(Tag deadTag)
+    private void fireEndOfDocument()
+    {
+        synchronized (this._listeners)
+        {
+            Iterator i = _listeners.iterator();
+            while(i.hasNext())
+            {
+                ((ParserEventAdapter) i.next()).endOfDocument();
+            }
+        }
+    }
+
+    private void fireDeadTagEvent(Tag deadTag)
     {
         synchronized (this._listeners)
         {
@@ -95,105 +111,129 @@ public class HTMLParser implements IHTMLParser
         }
     }
 
-    //Parse this html
-    public void parse(InputStream htmlstream) throws IOException
+    /**
+     * Parse this test case.  Will end up parsing much like a SAX parser.
+     * We need to know the line number we are erroring on.  Each test case
+     * Contains a line - in a string array - so we know which line we are
+     * on.
+     * @param testCase
+     * @throws IOException
+     */
+    public void parse(TestCase testCase) throws IOException
     {
         int parsingState;
         int value;
-        int position;
-
-        this.html = html;
-
-        //Parse the HTML - while parsing fire the start & end tags out
+        int position = 0;
+        String html;
+        Iterator lineIter;
+        int lineNumber;
+        StringBuffer tagName = new StringBuffer();
 
         //Need to look for the start of a tag - '<' character
-
         //Then, need to find the '>' character
 
         //Then determine if this was a opening tag <tag> or closing tag </tag>
-        //It could be a all inclusive tag <tag/>
+        //It could be a all inclusive tag <tag/> <- even though the test cases don't want this.  For completeness.
 
         parsingState = 0;
+        lineNumber = 0;
 
+        //Need to load up each line into an input stream.
+        //I'm going to parse each line character by character.
+        lineIter = testCase.getLines().iterator();
+
+        //I'm torn with leaving this outside the iteration.  In this case
+        //when 1 lines dies, the iteration entire parse will die for this test case.
         try
         {
-            //InputStream is = new ByteArrayInputStream(this.html.getBytes());
-            BufferedReader br = new BufferedReader(new InputStreamReader(htmlstream));
-            StringBuffer tagName = new StringBuffer();
-            position = 0;
-
-            //Start parsing
-            // reads to the end of the stream
-            while((value = br.read()) != -1)
+            while(lineIter.hasNext())
             {
-                // converts int to character
-                char c = (char)value;
-                position++;
+                html = (String)lineIter.next();
+                lineNumber++;
 
-                if(isStartBracket(c))
+                InputStream is = new ByteArrayInputStream(html.getBytes());
+                BufferedReader br = new BufferedReader(new InputStreamReader(is));
+                tagName = new StringBuffer();
+                position = 0;
+
+                //Start parsing
+                // reads to the end of the stream
+                while((value = br.read()) != -1)
                 {
-                    if(parsingState==findingEndBracket)
+                    // converts int to character
+                    char c = (char)value;
+                    position++;
+
+                    if(isStartBracket(c))
                     {
-                        //If we were looking for an end bracket - it means
-                        //we were still looking for a start bracket.  So this
-                        //is a dead tag case
-                        fireDeadTagEven(new Tag(tagName.toString(), position));
+                        if(parsingState==findingEndBracket)
+                        {
+                            //If we were looking for an end bracket - it means
+                            //we were still looking for a start bracket.  So this
+                            //is a dead tag case
+                            fireDeadTagEvent(new Tag(tagName.toString(), position, lineNumber));
+                        }
+
+                        parsingState = findingEndBracket;
+
+                        //Reset String
+                        tagName = new StringBuffer();
                     }
-
-                    parsingState = findingEndBracket;
-
-                    //Reset String
-                    tagName = new StringBuffer();
-                }
-                else if(isEndBracket(c))
-                {
-                    String szTag;
-                    int tagType;
-
-                    parsingState = findingStartBracket;
-                    szTag = tagName.toString().trim();
-
-                    //If this tag contains the / character, then fire both start & end
-                    //and string the / character
-                    if(szTag.indexOf('/')==szTag.length()-1)
+                    else if(isEndBracket(c))
                     {
-                        tagType = startEndTag;
-                        szTag = szTag.substring(0, szTag.indexOf('/'));
-                    }
-                    else if(szTag.indexOf('/')==0)
-                    {
-                        tagType = endTag;
-                        szTag = szTag.substring(1);
+                        String szTag;
+                        int tagType;
+
+                        parsingState = findingStartBracket;
+                        szTag = tagName.toString().trim();
+
+                        //If this tag contains the / character, then fire both start & end
+                        //and string the / character
+                        if(szTag.length()==0)
+                        {
+                            //In reality - empty tag
+                            tagType = startTag;
+                            szTag = "";
+                        }
+                        else if(szTag.indexOf('/')==szTag.length()-1)
+                        {
+                            tagType = startEndTag;
+                            szTag = szTag.substring(0, szTag.indexOf('/'));
+                        }
+                        else if(szTag.indexOf('/')==0)
+                        {
+                            tagType = endTag;
+                            szTag = szTag.substring(1);
+                        }
+                        else
+                        {
+                            tagType = startTag;
+                        }
+
+                        Tag newTag = new Tag(szTag.toString(),position, lineNumber);
+
+                        switch(tagType)
+                        {
+                            case startTag:
+                                fireStartTagEvent(newTag);
+                                break;
+                            case endTag:
+                                fireEndTagEvent(newTag);
+                                break;
+                            case startEndTag:
+                                fireStartTagEvent(newTag);
+                                fireEndTagEvent(newTag);
+                                break;
+                        }
                     }
                     else
                     {
-                        tagType = startTag;
-                    }
-
-                    Tag newTag = new Tag(szTag.toString(),position);
-
-                    switch(tagType)
-                    {
-                        case startTag:
-                            fireStartTagEvent(newTag);
-                            break;
-                        case endTag:
-                            fireEndTagEvent(newTag);
-                            break;
-                        case startEndTag:
-                            fireStartTagEvent(newTag);
-                            fireEndTagEvent(newTag);
-                            break;
+                        if(parsingState==findingEndBracket)
+                        {
+                            tagName.append(c);
+                        }
                     }
                 }
-                else
-                {
-                    if(parsingState==findingEndBracket)
-                    {
-                        tagName.append(c);
-                    }
-                }
-
             }
         }
         catch(IOException ioException)
@@ -202,6 +242,15 @@ public class HTMLParser implements IHTMLParser
             throw ioException;
         }
 
+        //If we are at the end of the doc - but no finsh to the tag
+        //Need to log some sort of error
+        if(parsingState==findingEndBracket)
+        {
+            //System.out.println("error end bracket");
+            fireDeadTagEvent(new Tag(tagName.toString(), position, lineNumber));
+        }
+
+        fireEndOfDocument();
         return;
     }
 

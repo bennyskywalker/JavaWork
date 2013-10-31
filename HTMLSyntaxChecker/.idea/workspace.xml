@@ -4,25 +4,27 @@
     <list default="true" id="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" name="Default" comment="" />
     <ignored path="HelloWorld.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173350182" ignored="false" />
-    <file path="/HTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383107074985" ignored="false" />
-    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174047812" ignored="false" />
+    <file path="/Main.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383180369867" ignored="false" />
+    <file path="/HTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383180137132" ignored="false" />
+    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383176031065" ignored="false" />
     <file path="$PROJECT_DIR$/src/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383026354804" ignored="false" />
     <file path="/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383103000031" ignored="false" />
     <file path="/ParserEventListner.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383075349923" ignored="false" />
     <file path="/IParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383075377545" ignored="false" />
-    <file path="/ParserEventAdapter.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383106793427" ignored="false" />
+    <file path="/ParserEventAdapter.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383177035851" ignored="false" />
     <file path="/ParserEvents.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383075601633" ignored="false" />
-    <file path="/IHTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383103601853" ignored="false" />
-    <file path="/ParserEventListener.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383106757191" ignored="false" />
-    <file path="/TagAnalyzer.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383106881748" ignored="false" />
-    <file path="/Tag.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383098716943" ignored="false" />
-    <file path="/TagTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383081158127" ignored="false" />
+    <file path="/IHTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383175047972" ignored="false" />
+    <file path="/ParserEventListener.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383177014138" ignored="false" />
+    <file path="/TagAnalyzer.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383179784808" ignored="false" />
+    <file path="/Tag.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383176582176" ignored="false" />
+    <file path="/TagTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383176780266" ignored="false" />
     <file path="/TagAnalyzerTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383099066553" ignored="false" />
-    <file path="/TagDebugger.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383106933037" ignored="false" />
-    <file path="/TestCase.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383172859255" ignored="false" />
+    <file path="/TagDebugger.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174842654" ignored="false" />
+    <file path="/TestCase.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383175283074" ignored="false" />
     <file path="$PROJECT_DIR$/src/Models/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173780877" ignored="false" />
     <file path="$PROJECT_DIR$/src/tests/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173791435" ignored="false" />
+    <file path="/TestCaseAnalyzer.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174710518" ignored="false" />
+    <file path="/TagError.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383178964362" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +74,50 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="92" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Main.java" line="101" class="Main" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/Parser/HTMLParser.java" line="168" class="Parser.HTMLParser" package="Parser">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -81,17 +127,7 @@
     <favorites_list name="HTMLSyntaxChecker" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="21" selection-start="560" selection-end="560" vertical-scroll-proportion="0.28333333">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -101,30 +137,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Parser/IParser.java" />
-        <option value="$PROJECT_DIR$/src/Parser/ParserEventListner.java" />
-        <option value="$PROJECT_DIR$/src/ParserEvents.java" />
-        <option value="$PROJECT_DIR$/tests/Parser/TagTest.java" />
-        <option value="$PROJECT_DIR$/tests/Parser/TagAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/tests/Models/TestCaseTest.java" />
+        <option value="$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java" />
+        <option value="$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java" />
+        <option value="$PROJECT_DIR$/src/Parser/IHTMLParser.java" />
+        <option value="$PROJECT_DIR$/src/Models/TestCase.java" />
+        <option value="$PROJECT_DIR$/tests/HTMLParserTest.java" />
         <option value="$PROJECT_DIR$/src/Parser/Tag.java" />
         <option value="$PROJECT_DIR$/tests/TagAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/tests/HTMLParserTest.java" />
-        <option value="$PROJECT_DIR$/src/Parser/IHTMLParser.java" />
+        <option value="$PROJECT_DIR$/tests/Parser/TagTest.java" />
         <option value="$PROJECT_DIR$/src/Parser/ParserEventListener.java" />
         <option value="$PROJECT_DIR$/src/Parser/ParserEventAdapter.java" />
-        <option value="$PROJECT_DIR$/src/TagAnalyzer.java" />
-        <option value="$PROJECT_DIR$/src/TagDebugger.java" />
+        <option value="$PROJECT_DIR$/src/TestCaseUtils/TagError.java" />
+        <option value="$PROJECT_DIR$/src/TestCaseUtils/TagAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/Parser/HTMLParser.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/tests/Models/TestCaseTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="337" />
-    <option name="y" value="15" />
-    <option name="width" value="1561" />
-    <option name="height" value="1032" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1064" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,6 +234,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="Models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -213,6 +267,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCaseUtils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Parser" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -242,7 +332,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/tests" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/TestCaseUtils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="false" />
@@ -254,18 +344,23 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="TestCaseUtils" />
       <recent name="Models" />
       <recent name="" />
       <recent name="Parser" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="TestCaseUtils" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\git_bennyskywalker\JavaPractice\HTMLSyntaxChecker\src\Models" />
@@ -284,7 +379,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="HelloWorld" />
+      <module name="HTMLSyntaxChecker" />
       <envs />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="" />
@@ -346,6 +441,28 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TagTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="HTMLSyntaxChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Parser" />
+      <option name="MAIN_CLASS_NAME" value="Parser.TagTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -381,16 +498,18 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.All in HelloWorld" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TagTest" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="4">
         <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.All in HelloWorld" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TagTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.All in HelloWorld" />
       </list>
     </recent_temporary>
   </component>
@@ -404,27 +523,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="337" y="15" width="1561" height="1032" extended-state="0" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3290993" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39875" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5545657" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32739422" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27773526" sideWeight="0.21919584" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23714095" sideWeight="0.67125" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3075" sideWeight="0.9924433" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18943436" sideWeight="0.56792873" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43207127" sideWeight="0.9924433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32875" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -489,32 +608,30 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="441" selection-end="454" vertical-scroll-proportion="0.0">
+        <state line="21" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4047619">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="65" selection-start="2137" selection-end="2137" vertical-scroll-proportion="0.0">
+        <state line="22" column="8" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Parser/IHTMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="41" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="22" column="24" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3943834">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TagAnalyzerTest.java">
+    <entry file="file://$PROJECT_DIR$/src/Models/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="15" selection-start="1986" selection-end="1986" vertical-scroll-proportion="0.6730769">
+        <state line="29" column="82" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -523,31 +640,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/HTMLParserTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="37" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
+        <state line="37" column="10" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Models/TestCaseTest.java">
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="451" selection-end="451" vertical-scroll-proportion="0.50595236">
+        <state line="9" column="16" selection-start="162" selection-end="162" vertical-scroll-proportion="0.39766082">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Models/TestCase.java">
+    <entry file="file://$PROJECT_DIR$/tests/TagAnalyzerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="18" selection-start="327" selection-end="327" vertical-scroll-proportion="0.22261904">
+        <state line="67" column="53" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.71666664">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="53" selection-start="642" selection-end="642" vertical-scroll-proportion="0.69085634">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="29" selection-start="631" selection-end="644" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1913" column="34" selection-start="75728" selection-end="75728" vertical-scroll-proportion="0.43801653">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="21" selection-start="560" selection-end="560" vertical-scroll-proportion="0.28333333">
-          <folding />
+        <state line="126" column="90" selection-start="5329" selection-end="5329" vertical-scroll-proportion="0.5268595">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/HTMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="209" column="24" selection-start="6457" selection-end="6457" vertical-scroll-proportion="0.70247936">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="0" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.5247934">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

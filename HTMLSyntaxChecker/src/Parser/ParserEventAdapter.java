@@ -3,8 +3,8 @@ package Parser;
 /**
  * Created with IntelliJ IDEA.
  * User: btsui
- * Date: 29/10/13
- * Time: 3:37 PM
+ * Date: 30/10/13
+ * Time: 7:37 PM
  * To change this template use File | Settings | File Templates.
  */
 public class ParserEventAdapter implements ParserEventListener {
@@ -22,6 +22,12 @@ public class ParserEventAdapter implements ParserEventListener {
 
     @Override
     public void deadTagFound(Tag deadTag)
+    {
+        return;
+    }
+
+    @Override
+    public void endOfDocument()
     {
         return;
     }

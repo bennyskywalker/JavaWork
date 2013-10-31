@@ -35,6 +35,9 @@ public class TestCase
         testLines.add(testLine);
     }
 
+    /**
+     * Debug test to make sure I could read in the sampledata.txt file from stdin.
+     */
     public void debugStdOut()
     {
         Iterator iter = testLines.iterator();
@@ -47,4 +50,12 @@ public class TestCase
         }
     }
 
+    /**
+     * Return the lines of the test case.
+     * @return
+     */
+    public List<String> getLines()
+    {
+        return testLines;
+    }
 }
