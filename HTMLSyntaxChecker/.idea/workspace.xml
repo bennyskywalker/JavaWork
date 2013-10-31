@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Main.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383180369867" ignored="false" />
     <file path="/HTMLParser.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383180137132" ignored="false" />
-    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383176031065" ignored="false" />
+    <file path="/fragment.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383181075327" ignored="false" />
     <file path="$PROJECT_DIR$/src/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383026354804" ignored="false" />
     <file path="/HTMLParserTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383103000031" ignored="false" />
     <file path="/ParserEventListner.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383075349923" ignored="false" />
@@ -20,11 +20,13 @@
     <file path="/TagTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383176780266" ignored="false" />
     <file path="/TagAnalyzerTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383099066553" ignored="false" />
     <file path="/TagDebugger.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174842654" ignored="false" />
-    <file path="/TestCase.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383175283074" ignored="false" />
+    <file path="/TestCase.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383180855113" ignored="false" />
     <file path="$PROJECT_DIR$/src/Models/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173780877" ignored="false" />
     <file path="$PROJECT_DIR$/src/tests/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383173791435" ignored="false" />
     <file path="/TestCaseAnalyzer.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383174710518" ignored="false" />
     <file path="/TagError.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383178964362" ignored="false" />
+    <file path="/TestCaseTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383181039011" ignored="false" />
+    <file path="/TagErrorTest.java" changelist="8d48d0a3-8aef-45cf-a833-e86dc2f50dde" time="1383181375676" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +129,110 @@
     <favorites_list name="HTMLSyntaxChecker" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="TagAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagDebugger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagError.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagError.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCaseAnalyzer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCaseTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Models/TestCaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="33" selection-start="144" selection-end="177" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="10" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagErrorTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TagErrorTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestCaseAnalyzerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HTMLParserTest.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/HTMLParserTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="33" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7679814">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TagAnalyzerTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/TagAnalyzerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="17" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -137,30 +242,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests/Models/TestCaseTest.java" />
-        <option value="$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java" />
         <option value="$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java" />
         <option value="$PROJECT_DIR$/src/Parser/IHTMLParser.java" />
-        <option value="$PROJECT_DIR$/src/Models/TestCase.java" />
-        <option value="$PROJECT_DIR$/tests/HTMLParserTest.java" />
         <option value="$PROJECT_DIR$/src/Parser/Tag.java" />
-        <option value="$PROJECT_DIR$/tests/TagAnalyzerTest.java" />
-        <option value="$PROJECT_DIR$/tests/Parser/TagTest.java" />
         <option value="$PROJECT_DIR$/src/Parser/ParserEventListener.java" />
         <option value="$PROJECT_DIR$/src/Parser/ParserEventAdapter.java" />
         <option value="$PROJECT_DIR$/src/TestCaseUtils/TagError.java" />
         <option value="$PROJECT_DIR$/src/TestCaseUtils/TagAnalyzer.java" />
         <option value="$PROJECT_DIR$/src/Parser/HTMLParser.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/Models/TestCase.java" />
+        <option value="$PROJECT_DIR$/tests/Models/TestCaseTest.java" />
+        <option value="$PROJECT_DIR$/tests/TestCaseUtils/TagErrorTest.java" />
+        <option value="$PROJECT_DIR$/tests/Parser/TagTest.java" />
+        <option value="$PROJECT_DIR$/tests/TagAnalyzerTest.java" />
+        <option value="$PROJECT_DIR$/tests/HTMLParserTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1064" />
+    <option name="x" value="119" />
+    <option name="y" value="7" />
+    <option name="width" value="1561" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -217,6 +322,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTMLSyntaxChecker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TestCaseUtils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -332,7 +455,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/TestCaseUtils" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/tests/TestCaseUtils" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="OverrideImplement.combined" value="false" />
@@ -391,28 +514,6 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="All in HelloWorld" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="HelloWorld" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="package" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="TagAnalyzerTest" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="HelloWorld" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -447,6 +548,56 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="Parser" />
       <option name="MAIN_CLASS_NAME" value="Parser.TagTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestCaseTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="HTMLSyntaxChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="Models" />
+      <option name="MAIN_CLASS_NAME" value="Models.TestCaseTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TagErrorTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="HTMLSyntaxChecker" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="TestCaseUtils" />
+      <option name="MAIN_CLASS_NAME" value="TestCaseUtils.TagErrorTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" />
@@ -498,18 +649,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.All in HelloWorld" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TagTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TagTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestCaseTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TagErrorTest" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TagTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.All in HelloWorld" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TagErrorTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestCaseTest" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TagTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TagAnalyzerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -523,7 +676,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="1938" height="1064" extended-state="6" />
+    <frame x="119" y="7" width="1561" height="1032" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -540,8 +693,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27773526" sideWeight="0.21919584" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18943436" sideWeight="0.56792873" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43207127" sideWeight="0.9924433" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23714095" sideWeight="0.55196303" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44803694" sideWeight="0.9924433" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -608,108 +761,9 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="5" selection-start="399" selection-end="399" vertical-scroll-proportion="0.4047619">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="8" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/IHTMLParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="24" selection-start="455" selection-end="455" vertical-scroll-proportion="0.3943834">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Models/TestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="82" selection-start="588" selection-end="588" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/HTMLParserTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="10" selection-start="888" selection-end="888" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="16" selection-start="162" selection-end="162" vertical-scroll-proportion="0.39766082">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/TagAnalyzerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="53" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.71666664">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="53" selection-start="642" selection-end="642" vertical-scroll-proportion="0.69085634">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/Tag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="579" selection-end="579" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagError.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1034" selection-end="1034" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="631" selection-end="644" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="13" selection-start="504" selection-end="504" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_06/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1913" column="34" selection-start="75728" selection-end="75728" vertical-scroll-proportion="0.43801653">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="90" selection-start="5329" selection-end="5329" vertical-scroll-proportion="0.5268595">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -718,16 +772,117 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Parser/HTMLParser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="209" column="24" selection-start="6457" selection-end="6457" vertical-scroll-proportion="0.70247936">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/IHTMLParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="270" selection-end="270" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/ParserEventListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Parser/Tag.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagAnalyzer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1350" selection-end="1350" vertical-scroll-proportion="0.5247934">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagDebugger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TagError.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestCaseUtils/TestCaseAnalyzer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Models/TestCaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="33" selection-start="144" selection-end="177" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Parser/TagTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TagErrorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TestCaseUtils/TestCaseAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/TagAnalyzerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="17" selection-start="1204" selection-end="1204" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/HTMLParserTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="33" selection-start="889" selection-end="889" vertical-scroll-proportion="0.7679814">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

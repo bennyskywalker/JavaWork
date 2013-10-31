@@ -12,8 +12,8 @@ import static org.junit.Assert.*;
 /**
  * Created with IntelliJ IDEA.
  * User: btsui
- * Date: 29/10/13
- * Time: 2:01 AM
+ * Date: 30/10/13
+ * Time: 8:01 AM
  * To change this template use File | Settings | File Templates.
  */
 public class HTMLParserTest {
@@ -28,14 +28,6 @@ public class HTMLParserTest {
     @org.junit.Test
     public void testAllClosedTag() throws Exception {
 
-        /*
-        String testString ="<html><html>";
-        InputStream is = new ByteArrayInputStream(testString.getBytes());
-        htmlParser.parse(is);
-        List<String> nonClosedTags = htmlParser.nonClosedTags();
-
-        assertNotNull(nonClosedTags);
-        */
     }
 
     @org.junit.Test

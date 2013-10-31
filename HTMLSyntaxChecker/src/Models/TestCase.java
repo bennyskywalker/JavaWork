@@ -35,6 +35,11 @@ public class TestCase
         testLines.add(testLine);
     }
 
+    public int getTestCase()
+    {
+        return this.testCase;
+    }
+
     /**
      * Debug test to make sure I could read in the sampledata.txt file from stdin.
      */
